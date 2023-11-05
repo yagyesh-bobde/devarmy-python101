@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dev Challenge</title>
+  <link rel="stylesheet" href="./globals.css">
+  <style>
+    body {
+      color: white;
+    }
+   .bg-black {
+     background: black;
+   }
+   .btn {
+     background: #2563eb;
+     border-radius: 15px;
+     text-align : center;
+     color: white;
+     font-weight: 600;
+     padding: 15px;
+     border: none; 
+     outline: none;
+     transition-duration : 300ms;
+     cursor: pointer;
+   }
+    .btn:hover {
+      scale: 1.07;
+    }
+  h1{
+    font-size: 1.5rem; 
+    margin:0; 
+    padding: 0;
+  }
+    .newContainer {
+      width: 50%; 
+      margin: 0 auto;
+      flex-direction: column ;
+      justify-content : flex-start;
+    }
+  </style>
+</head>
+<body>
+  <div class="full-span grid-center bg-black">
+    <div class="newContainer">
+      <h1>
+        Congratulations 🎉
+      </h1>
+      <p>
+        You have now learned all the basics of python. Congratulations for starting your jorney in python and also for becoming an alpha learner in DevArmy.
+      </p>
+      <button id='start' class="btn">
+       Try again?
+      </button>
+  </div>
+  </div>
+
+
+  <script>
+    document.getElementById("start").addEventListener('click', () => {
+      window.location.href = "/"
+    })
+  </script>
+</body>
+</html>
