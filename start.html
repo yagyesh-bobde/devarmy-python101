@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dev Challenge</title>
+  <link rel="stylesheet" href="./globals.css">
+  <style>
+    body{
+      color: black;
+    }
+    ul {
+      list-style-type: number;
+      display: flex;
+      flex-direction: column; 
+      gap: 15px;
+    }
+    .flex-around {
+      display: flex; 
+      padding: 0 25px;
+    }
+  </style>
+</head>
+<body>
+  <div class="full-span grid-center">
+
+    <h1 style=" position: absolute; top:50px; left: 50%; right: 50%; transform: translateX(-50%); width: max-content;">Crossword Challenge</h1>
+    
+    <div class="questions flex-around" id="questions">
+      <ul class="shadow-xl " style="width: 50%; display: flex; justify-content:center">
+        
+        <li>
+          A Python data structure that stores a collection of key-value pairs.
+        </li>
+        <li>
+          A Python data type that is an ordered, immutable collection.
+        </li>
+        <li style="color: gray;">
+          input_string = 'theDevArmy'<br>string_list = [char for char in input_string]<br>print(string_list[3:])
+        </li>
+        <li>
+          A travel company wants to fly a plane to the Bahamas. Flying the plane costs 800 dollars. So far, 5 people have signed up for the trip. If the company charges 250 dollars per ticket, what is the profit made by the company?
+        </li>
+        <li>print('9' + '1')</li>
+      </ul>
+      <div class="image flex-center " id="image" style="padding: 5px; width: 50%">
+        <img class="" width="550px" src="./1.jpg" alt="" id="image-src">  
+      </div>
+    </div>
+
+      <div class="urlhelp flex-center" id="urlhelp" style="position: absolute; bottom: 25px; left:50%;right:50%;" >
+        <p style="color:gray;">Change the url 👇</h2><br/>
+        <img src="./url.png" width="500px" alt="url">
+      </div>
+
+    
+  </div>
+  <script>
+    
+  </script>
+</body>
+</html>
